@@ -5,6 +5,6 @@ Object.defineProperty(exports, '__esModule', {
 });
 exports.configure = configure;
 
-function configure(config) {
-  config.globalResources('./hello-world');
+function configure(frameworkConfig) {
+  frameworkConfig.globalResources('./swipe');
 }

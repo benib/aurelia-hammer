@@ -3,8 +3,8 @@ System.register([], function (_export) {
 
   _export('configure', configure);
 
-  function configure(config) {
-    config.globalResources('./hello-world');
+  function configure(frameworkConfig) {
+    frameworkConfig.globalResources('./swipe');
   }
 
   return {

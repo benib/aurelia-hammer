@@ -1,3 +1,3 @@
-export function configure(config){
-  config.globalResources('./hello-world');
+export function configure(frameworkConfig) {
+  frameworkConfig.globalResources('./swipe');
 }
