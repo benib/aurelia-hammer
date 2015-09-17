@@ -1,3 +1,3 @@
 export function configure(frameworkConfig) {
-  frameworkConfig.globalResources('./swipe');
+  frameworkConfig.globalResources('./hammer-swipe');
 }

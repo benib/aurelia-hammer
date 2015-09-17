@@ -4,7 +4,7 @@ System.register([], function (_export) {
   _export('configure', configure);
 
   function configure(frameworkConfig) {
-    frameworkConfig.globalResources('./swipe');
+    frameworkConfig.globalResources('./hammer-swipe');
   }
 
   return {

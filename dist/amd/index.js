@@ -7,6 +7,6 @@ define(['exports'], function (exports) {
   exports.configure = configure;
 
   function configure(frameworkConfig) {
-    frameworkConfig.globalResources('./swipe');
+    frameworkConfig.globalResources('./hammer-swipe');
   }
 });

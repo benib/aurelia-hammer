@@ -6,5 +6,5 @@ Object.defineProperty(exports, '__esModule', {
 exports.configure = configure;
 
 function configure(frameworkConfig) {
-  frameworkConfig.globalResources('./swipe');
+  frameworkConfig.globalResources('./hammer-swipe');
 }
