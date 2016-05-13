@@ -1,6 +1,6 @@
 # aurelia-hammer
 
-This is a [Aurelia](http://www.aurelia.io/) plugin providing the `hammer-swipe` and `hammer-press` and `hammer-hold` Custom Attributes.
+This is a [Aurelia](http://www.aurelia.io/) plugin providing the `hammer-swipe` and `hammer-tap` and `hammer-press` and `hammer-hold` Custom Attributes.
 
 It uses [HammerJS](http://hammerjs.github.io/) to detect the gesture.
 
@@ -40,7 +40,7 @@ handleSwipe($event) {
 }
 ```
 
-# Tap Usage
+## Tap Usage
 
 In your View
 ```html
@@ -56,7 +56,7 @@ handlePress($event) {
 ```
 
 
-# Press Usage
+## Press Usage
 
 In your View
 ```html
@@ -71,7 +71,7 @@ handlePress($event) {
 }
 ```
 
-# Hold Usage
+## Hold Usage
 
 In your View
 ```html
