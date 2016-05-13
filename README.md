@@ -44,12 +44,12 @@ handleSwipe($event) {
 
 In your View
 ```html
-<div hammer-press.call="handlePress($event)">
+<div hammer-tap.call="handleTap($event)">
 </div>
 ```
 In your View Model
 ```js
-handlePress($event) {
+handleTap($event) {
   
   // here you have $event.hammerEvent holding the original event from HammerJS.
 }
