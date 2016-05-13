@@ -26,7 +26,7 @@ export class HammerTapCustomAttribute {
     this.callback = newValue;
   }
 
-  handleSwipe(event) {
+  handleTap(event) {
     if (this.callback) {
       this.callback.call(null, { hammerEvent: event });
     }
