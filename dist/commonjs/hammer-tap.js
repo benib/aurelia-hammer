@@ -29,12 +29,12 @@ var HammerTapCustomAttribute = (function () {
   _createClass(HammerTapCustomAttribute, [{
     key: 'attached',
     value: function attached() {
-      this.hammer.on('press', this.handleTap.bind(this));
+      this.hammer.on('tap', this.handleTap.bind(this));
     }
   }, {
     key: 'detached',
     value: function detached() {
-      this.hammer.off('press', this.handleTap.bind(this));
+      this.hammer.off('tap', this.handleTap.bind(this));
     }
   }, {
     key: 'valueChanged',
@@ -42,8 +42,8 @@ var HammerTapCustomAttribute = (function () {
       this.callback = newValue;
     }
   }, {
-    key: 'handleSwipe',
-    value: function handleSwipe(event) {
+    key: 'handleTap',
+    value: function handleTap(event) {
       if (this.callback) {
         this.callback.call(null, { hammerEvent: event });
       }

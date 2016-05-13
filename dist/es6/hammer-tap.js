@@ -15,18 +15,18 @@ export class HammerTapCustomAttribute {
   }
 
   attached() {
-    this.hammer.on('press', this.handleTap.bind(this));
+    this.hammer.on('tap', this.handleTap.bind(this));
   }
 
   detached() {
-    this.hammer.off('press', this.handleTap.bind(this));
+    this.hammer.off('tap', this.handleTap.bind(this));
   }
 
   valueChanged(newValue) {
     this.callback = newValue;
   }
 
-  handleSwipe(event) {
+  handleTap(event) {
     if (this.callback) {
       this.callback.call(null, { hammerEvent: event });
     }
