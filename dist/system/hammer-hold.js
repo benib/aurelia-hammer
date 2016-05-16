@@ -51,7 +51,7 @@ System.register(['aurelia-framework', 'hammerjs'], function (_export) {
 
         var _HammerPressCustomAttribute = HammerPressCustomAttribute;
         HammerPressCustomAttribute = inject(Element)(HammerPressCustomAttribute) || HammerPressCustomAttribute;
-        HammerPressCustomAttribute = customAttribute('hammer-press')(HammerPressCustomAttribute) || HammerPressCustomAttribute;
+        HammerPressCustomAttribute = customAttribute('hammer-hold')(HammerPressCustomAttribute) || HammerPressCustomAttribute;
         return HammerPressCustomAttribute;
       })();
 

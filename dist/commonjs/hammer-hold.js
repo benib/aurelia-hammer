@@ -52,7 +52,7 @@ var HammerPressCustomAttribute = (function () {
 
   var _HammerPressCustomAttribute = HammerPressCustomAttribute;
   HammerPressCustomAttribute = (0, _aureliaFramework.inject)(Element)(HammerPressCustomAttribute) || HammerPressCustomAttribute;
-  HammerPressCustomAttribute = (0, _aureliaFramework.customAttribute)('hammer-press')(HammerPressCustomAttribute) || HammerPressCustomAttribute;
+  HammerPressCustomAttribute = (0, _aureliaFramework.customAttribute)('hammer-hold')(HammerPressCustomAttribute) || HammerPressCustomAttribute;
   return HammerPressCustomAttribute;
 })();
 
