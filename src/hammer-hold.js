@@ -1,7 +1,7 @@
 import {inject, customAttribute} from 'aurelia-framework';
 import Hammer from 'hammerjs';
 
-@customAttribute('hammer-press')
+@customAttribute('hammer-hold')
 @inject(Element)
 export class HammerPressCustomAttribute {
 
