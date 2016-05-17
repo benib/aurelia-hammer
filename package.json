@@ -48,8 +48,8 @@
       "lib": "dist/amd"
     },
     "dependencies": {
-      "aurelia/framework": "github:aurelia/framework@~0.16.0",
-      "hammerjs": "npm:hammerjs@~2.0.4"
+      "aurelia-framework": "npm:aurelia-framework@^1.0.0-beta.1.2.5",
+      "hammerjs": "npm:hammerjs@^2.0.8"
     },
     "devDependencies": {
       "babel": "npm:babel-core@^5.8.22",
